@@ -3,7 +3,6 @@ package lk.ijse.repository.custom.impl;
 import lk.ijse.repository.custom.QueryRepository;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
-import lk.ijse.entity.BorrowingDetails;
 
 import java.sql.Timestamp;
 import java.util.List;

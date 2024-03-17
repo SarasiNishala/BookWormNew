@@ -10,19 +10,13 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import lk.ijse.dto.BookDTO;
 import lk.ijse.dto.BorrowingDTO;
-import lk.ijse.dto.tm.BookTM;
 import lk.ijse.dto.tm.BorrowingTM;
-import lk.ijse.dto.tm.DiscoverTM;
-import lk.ijse.entity.BorrowingDetails;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.BorrowingDetailsService;
 import lk.ijse.service.custom.CountService;
 import lk.ijse.service.custom.QueryService;
-import lk.ijse.service.custom.impl.QueryServiceImpl;
 
-import java.sql.Timestamp;
 import java.util.Optional;
 
 public class AdmBorrowingManageController {

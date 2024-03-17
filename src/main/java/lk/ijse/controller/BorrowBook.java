@@ -6,10 +6,8 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import lk.ijse.dto.BookDTO;
 import lk.ijse.dto.BorrowingDetailsDTO;
 import lk.ijse.embedded.BorrowingDetailPK;
-import lk.ijse.entity.Book;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.BookService;
 import lk.ijse.service.custom.BorrowingDetailsService;
@@ -17,7 +15,6 @@ import lk.ijse.service.custom.UserService;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.Calendar;
 
 public class BorrowBook {
     @FXML

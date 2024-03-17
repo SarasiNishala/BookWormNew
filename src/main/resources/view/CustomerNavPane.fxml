@@ -7,19 +7,14 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="cusNavePane" prefHeight="832.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.CustomerNavPane">
+<AnchorPane fx:id="cusNavePane" prefHeight="832.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.CustomerNavPane">
    <children>
       <ImageView fitHeight="832.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/cusNav.png" />
          </image>
       </ImageView>
-      <Label layoutX="96.0" layoutY="88.0" text="BOOKWORM">
-         <font>
-            <Font name="SansSerif Bold" size="15.0" />
-         </font>
-      </Label>
-      <Pane layoutX="93.0" layoutY="152.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #FFC312; -fx-background-radius: 10;">
+      <Pane layoutX="93.0" layoutY="241.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #FFC312; -fx-background-radius: 10;">
          <children>
             <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="10.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -28,7 +23,7 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane layoutX="93.0" layoutY="217.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #12CBC4; -fx-background-radius: 10;">
+      <Pane layoutX="93.0" layoutY="306.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #12CBC4; -fx-background-radius: 10;">
          <children>
             <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="10.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -37,17 +32,17 @@
             </ImageView>
          </children>
       </Pane>
-      <Label graphicTextGap="5.0" layoutX="143.0" layoutY="160.0" onMouseClicked="#discoverOnAction" text="Discover" textFill="#838383">
+      <Label graphicTextGap="5.0" layoutX="143.0" layoutY="249.0" onMouseClicked="#discoverOnAction" text="Discover" textFill="#838383">
          <font>
             <Font name="SansSerif Regular" size="12.0" />
          </font>
       </Label>
-      <Label graphicTextGap="5.0" layoutX="143.0" layoutY="226.0" onMouseClicked="#libraryOnAction" text="My Library" textFill="#838383">
+      <Label graphicTextGap="5.0" layoutX="143.0" layoutY="315.0" onMouseClicked="#libraryOnAction" text="My Library" textFill="#838383">
          <font>
             <Font name="SansSerif Regular" size="12.0" />
          </font>
       </Label>
-      <Pane layoutX="93.0" layoutY="313.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #F0F0F0; -fx-background-radius: 10;">
+      <Pane layoutX="93.0" layoutY="481.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #F0F0F0; -fx-background-radius: 10;">
          <children>
             <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="10.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -56,12 +51,12 @@
             </ImageView>
          </children>
       </Pane>
-      <Label graphicTextGap="5.0" layoutX="142.0" layoutY="322.0" onMouseClicked="#profileOnAction" text="Profile" textFill="#838383">
+      <Label graphicTextGap="5.0" layoutX="142.0" layoutY="490.0" onMouseClicked="#profileOnAction" text="Profile" textFill="#838383">
          <font>
             <Font name="SansSerif Regular" size="12.0" />
          </font>
       </Label>
-      <Pane layoutX="93.0" layoutY="372.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #F0F0F0; -fx-background-radius: 10;">
+      <Pane layoutX="93.0" layoutY="542.0" prefHeight="33.0" prefWidth="35.0" style="-fx-background-color: #F0F0F0; -fx-background-radius: 10;">
          <children>
             <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -70,12 +65,12 @@
             </ImageView>
          </children>
       </Pane>
-      <Label graphicTextGap="5.0" layoutX="143.0" layoutY="381.0" onMouseClicked="#logoutOnAction" text="Log out" textFill="#838383">
+      <Label graphicTextGap="5.0" layoutX="143.0" layoutY="551.0" onMouseClicked="#logoutOnAction" text="Log out" textFill="#838383">
          <font>
             <Font name="SansSerif Regular" size="12.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="cusPane" layoutX="246.0" layoutY="49.0" prefHeight="735.0" prefWidth="984.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+      <AnchorPane fx:id="cusPane" layoutX="205.0" layoutY="131.0" prefHeight="568.0" prefWidth="832.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <children>
             <Label layoutX="89.0" layoutY="269.0" text="10000" textFill="WHITE">
                <font>
@@ -104,10 +99,15 @@
             </Label>
          </children>
       </AnchorPane>
-      <Label fx:id="lblUserName" layoutX="100.0" layoutY="732.0" text="UserName">
+      <Label fx:id="lblUserName" layoutX="100.0" layoutY="681.0" text="UserName">
          <font>
             <Font name="SansSerif Bold" size="12.0" />
          </font>
       </Label>
+      <ImageView fitHeight="62.0" fitWidth="142.0" layoutX="77.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

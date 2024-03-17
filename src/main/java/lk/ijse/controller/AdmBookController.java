@@ -16,14 +16,12 @@ import javafx.stage.Stage;
 import lk.ijse.dto.BookDTO;
 import lk.ijse.dto.BranchDTO;
 import lk.ijse.dto.tm.BookTM;
-import lk.ijse.entity.Branch;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.BookService;
 import lk.ijse.service.custom.BranchService;
 import lk.ijse.service.custom.CountService;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

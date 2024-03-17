@@ -16,13 +16,9 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import lk.ijse.dto.BookDTO;
-import lk.ijse.dto.UserDTO;
-import lk.ijse.dto.tm.AdminTM;
-import lk.ijse.dto.tm.BookTM;
 import lk.ijse.dto.tm.DiscoverTM;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.BookService;
-import lk.ijse.service.custom.UserService;
 
 import java.io.IOException;
 

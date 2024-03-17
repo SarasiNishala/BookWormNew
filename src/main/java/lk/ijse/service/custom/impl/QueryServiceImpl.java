@@ -4,7 +4,6 @@ import lk.ijse.config.SessionFactoryConfig;
 import lk.ijse.dto.BorrowingDTO;
 import lk.ijse.dto.LibraryDTO;
 import lk.ijse.dto.OverDueDTO;
-import lk.ijse.entity.BorrowingDetails;
 import lk.ijse.repository.RepositoryFactory;
 import lk.ijse.repository.custom.QueryRepository;
 import lk.ijse.service.custom.QueryService;

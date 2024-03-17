@@ -9,16 +9,12 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import lk.ijse.dto.BorrowingDTO;
 import lk.ijse.dto.LibraryDTO;
-import lk.ijse.dto.tm.BorrowingTM;
 import lk.ijse.dto.tm.LibraryTM;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.QueryService;
 
-import javax.crypto.spec.PSource;
-
-import static lk.ijse.controller.SignInController.LoginPageUserName;
+import static lk.ijse.controller.LoginController.LoginPageUserName;
 
 public class CusLibraryController {
 

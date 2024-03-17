@@ -2,14 +2,13 @@ package lk.ijse.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.UserService;
 import lk.ijse.validate.Validation;
 
-import static lk.ijse.controller.SignInController.LoginPageUserName;
+import static lk.ijse.controller.LoginController.LoginPageUserName;
 
 public class CusProfileController {
     @FXML

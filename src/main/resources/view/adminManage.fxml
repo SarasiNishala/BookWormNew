@@ -8,9 +8,10 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="adminPane" prefHeight="735.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdminManageController">
+<AnchorPane fx:id="adminPane" prefHeight="735.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdminManageController">
    <children>
       <AnchorPane fx:id="admDashPane" prefHeight="735.0" prefWidth="984.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <children>
@@ -34,7 +35,7 @@
                   <Font size="13.0" />
                </font>
             </TextField>
-            <TableView fx:id="admTbl" layoutX="53.0" layoutY="444.0" onMouseClicked="#tblOnAction" prefHeight="248.0" prefWidth="877.0" stylesheets="@../style/tableView.css">
+            <TableView fx:id="admTbl" layoutX="53.0" layoutY="444.0" onMouseClicked="#tblOnAction" prefHeight="248.0" prefWidth="877.0" stylesheets="@../tableView.css">
                <columns>
                   <TableColumn fx:id="colName" prefWidth="254.0" text="Name" />
                   <TableColumn fx:id="colUserName" prefWidth="426.0" text="UserName" />
@@ -54,6 +55,7 @@
                   <Font size="14.0" />
                </font>
             </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="652.0" layoutY="315.0" stroke="WHITE" strokeType="INSIDE" width="200.0" />
          </children>
       </AnchorPane>
    </children>

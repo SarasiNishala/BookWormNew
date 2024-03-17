@@ -2,26 +2,18 @@ package lk.ijse.service.custom.impl;
 
 import lk.ijse.config.SessionFactoryConfig;
 import lk.ijse.dto.BorrowingDetailsDTO;
-import lk.ijse.embedded.BorrowingDetailPK;
 import lk.ijse.entity.Book;
 import lk.ijse.entity.BorrowingDetails;
-import lk.ijse.entity.Branch;
-import lk.ijse.entity.User;
 import lk.ijse.repository.RepositoryFactory;
 import lk.ijse.repository.custom.BookRepository;
 import lk.ijse.repository.custom.BorrowingDetailsRepository;
 import lk.ijse.repository.custom.BranchRepository;
 import lk.ijse.repository.custom.UserRepository;
-import lk.ijse.service.ServiceFactory;
-import lk.ijse.service.custom.BookService;
 import lk.ijse.service.custom.BorrowingDetailsService;
-import lk.ijse.service.custom.BranchService;
-import lk.ijse.service.custom.UserService;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import java.sql.Timestamp;
-import java.util.ArrayList;
 import java.util.List;
 
 public class BorrowingDetailsServiceImpl implements BorrowingDetailsService {

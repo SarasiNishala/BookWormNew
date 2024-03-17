@@ -1,7 +1,6 @@
 package lk.ijse.repository.custom.impl;
 
 import lk.ijse.embedded.BorrowingDetailPK;
-import lk.ijse.entity.Book;
 import lk.ijse.entity.BorrowingDetails;
 import lk.ijse.repository.custom.BorrowingDetailsRepository;
 import org.hibernate.Session;

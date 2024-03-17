@@ -19,7 +19,7 @@ public class Navigation {
 
         switch (routes) {
             case LOGIN:
-                initUI("SignIn.fxml");
+                initUI("login.fxml");
                 window.setTitle("LOGIN");
                 break;
             case ADMDASHBOARD:

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="OverDuePane" prefHeight="735.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdmOverDueController">
+<AnchorPane fx:id="OverDuePane" prefHeight="735.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdmOverDueController">
    <children>
       <AnchorPane prefHeight="735.0" prefWidth="984.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <children>
@@ -18,23 +18,23 @@
                   <Image url="@../assets/CusLib.png" />
                </image>
             </ImageView>
-            <Label layoutX="67.0" layoutY="38.0" text="OverDues">
+            <Label layoutX="68.0" layoutY="62.0" text="OverDues">
                <font>
                   <Font name="SansSerif Bold" size="26.0" />
                </font>
             </Label>
-            <TextField fx:id="txtSearch" layoutX="67.0" layoutY="203.0" onAction="#txtSearchOnAction" prefHeight="40.0" prefWidth="384.0" promptText="find OverDue Details" style="-fx-background-color: white;">
+            <TextField fx:id="txtSearch" layoutX="67.0" layoutY="132.0" onAction="#txtSearchOnAction" prefHeight="40.0" prefWidth="384.0" promptText="find OverDue Details" style="-fx-background-color: white;">
                <font>
                   <Font size="13.0" />
                </font>
             </TextField>
-            <TableView fx:id="OverDueTable" layoutX="21.0" layoutY="329.0" prefHeight="384.0" prefWidth="946.0" style="-fx-background-color: transparent;" stylesheets="@../style/tableView.css">
+            <TableView fx:id="OverDueTable" layoutX="52.0" layoutY="245.0" prefHeight="417.0" prefWidth="881.0" style="-fx-background-color: transparent;" stylesheets="@../tableView.css">
                <columns>
-                  <TableColumn fx:id="colBId" prefWidth="75.0" text="Book ID" />
-                  <TableColumn fx:id="colTitle" prefWidth="226.0" text="Title" />
-                  <TableColumn fx:id="colCustomer" prefWidth="237.0" text="User" />
-                  <TableColumn fx:id="colBorrowDate" prefWidth="209.0" text="Borrow Date" />
-                  <TableColumn fx:id="colDueDate" prefWidth="198.0" text="Due Date" />
+                  <TableColumn fx:id="colBId" prefWidth="133.0" text="Book ID" />
+                  <TableColumn fx:id="colTitle" prefWidth="191.0" text="Title" />
+                  <TableColumn fx:id="colCustomer" prefWidth="214.0" text="User" />
+                  <TableColumn fx:id="colBorrowDate" prefWidth="159.0" text="Borrow Date" />
+                  <TableColumn fx:id="colDueDate" prefWidth="183.0" text="Due Date" />
                </columns>
             </TableView>
          </children>

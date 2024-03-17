@@ -1,6 +1,5 @@
 package lk.ijse.repository.custom;
 
-import lk.ijse.entity.BorrowingDetails;
 import lk.ijse.repository.SuperRepository;
 import org.hibernate.Session;
 

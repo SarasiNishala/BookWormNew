@@ -1,9 +1,7 @@
 package lk.ijse.service.custom.impl;
 
 import lk.ijse.config.SessionFactoryConfig;
-import lk.ijse.dto.BookDTO;
 import lk.ijse.dto.UserDTO;
-import lk.ijse.entity.Book;
 import lk.ijse.entity.User;
 import lk.ijse.repository.RepositoryFactory;
 import lk.ijse.repository.custom.UserRepository;

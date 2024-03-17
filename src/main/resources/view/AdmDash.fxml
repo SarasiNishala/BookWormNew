@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="admDashPane" prefHeight="735.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdmDashController">
+<AnchorPane fx:id="admDashPane" prefHeight="735.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdmDashController">
    <children>
       <AnchorPane layoutY="-1.0" prefHeight="735.0" prefWidth="984.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <children>
@@ -23,52 +23,52 @@
                   <Font name="SansSerif Bold" size="26.0" />
                </font>
             </Label>
-            <Label layoutX="74.0" layoutY="153.0" text="TOTAL USERS">
+            <Label layoutX="147.0" layoutY="114.0" text="TOTAL USERS">
                <font>
                   <Font name="SansSerif Regular" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="254.0" layoutY="153.0" text="TOTAL BOOKS">
+            <Label layoutX="297.0" layoutY="114.0" text="TOTAL BOOKS">
                <font>
                   <Font name="SansSerif Regular" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="413.0" layoutY="153.0" text="TOTAL BORROWINGS">
+            <Label layoutX="426.0" layoutY="114.0" text="TOTAL BORROWINGS">
                <font>
                   <Font name="SansSerif Regular" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="608.0" layoutY="153.0" text="TOTAL RETURNS">
+            <Label layoutX="594.0" layoutY="114.0" text="TOTAL RETURNS">
                <font>
                   <Font name="SansSerif Regular" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="786.0" layoutY="153.0" text="TOTAL BRANCHES">
+            <Label layoutX="738.0" layoutY="114.0" text="TOTAL BRANCHES">
                <font>
                   <Font name="SansSerif Regular" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="lblUser" layoutX="105.0" layoutY="269.0" text="10" textFill="WHITE">
+            <Label fx:id="lblUser" layoutX="177.0" layoutY="210.0" text="10" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="lblBook" layoutX="285.0" layoutY="269.0" text="10" textFill="WHITE">
+            <Label fx:id="lblBook" layoutX="330.0" layoutY="210.0" text="10" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="lblBorrow" layoutX="465.0" layoutY="269.0" text="10" textFill="WHITE">
+            <Label fx:id="lblBorrow" layoutX="479.0" layoutY="210.0" text="10" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="lblReturn" layoutX="647.0" layoutY="269.0" text="10" textFill="WHITE">
+            <Label fx:id="lblReturn" layoutX="629.0" layoutY="210.0" text="10" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="lblBranch" layoutX="829.0" layoutY="269.0" text="10" textFill="WHITE">
+            <Label fx:id="lblBranch" layoutX="780.0" layoutY="210.0" text="10" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="20.0" />
                </font>
@@ -83,7 +83,7 @@
                   <Font size="13.0" />
                </font>
             </TextField>
-            <TableView fx:id="borrowTbl" layoutX="53.0" layoutY="444.0" prefHeight="248.0" prefWidth="877.0" stylesheets="@../style/tableView.css">
+            <TableView fx:id="borrowTbl" layoutX="53.0" layoutY="444.0" prefHeight="248.0" prefWidth="877.0" stylesheets="@../tableView.css">
                <columns>
                   <TableColumn fx:id="colBId" prefWidth="75.0" text="Book ID" />
                   <TableColumn fx:id="colTitle" prefWidth="226.0" text="Title" />

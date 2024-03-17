@@ -1,7 +1,6 @@
 package lk.ijse.repository.custom.impl;
 
 import lk.ijse.config.SessionFactoryConfig;
-import lk.ijse.entity.Book;
 import lk.ijse.entity.Branch;
 import lk.ijse.repository.custom.BranchRepository;
 import org.hibernate.Session;

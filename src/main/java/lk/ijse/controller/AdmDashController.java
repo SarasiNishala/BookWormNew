@@ -13,7 +13,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.dto.BorrowingDTO;
-import lk.ijse.dto.tm.BorrowingTM;
 import lk.ijse.dto.tm.DashboardTM;
 import lk.ijse.service.ServiceFactory;
 import lk.ijse.service.custom.CountService;

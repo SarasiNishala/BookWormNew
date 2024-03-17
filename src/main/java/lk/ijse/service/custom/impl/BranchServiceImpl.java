@@ -1,9 +1,7 @@
 package lk.ijse.service.custom.impl;
 
 import lk.ijse.config.SessionFactoryConfig;
-import lk.ijse.dto.BookDTO;
 import lk.ijse.dto.BranchDTO;
-import lk.ijse.entity.Book;
 import lk.ijse.entity.Branch;
 import lk.ijse.repository.RepositoryFactory;
 import lk.ijse.repository.custom.BranchRepository;

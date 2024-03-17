@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import lk.ijse.dto.UserDTO;
@@ -74,5 +75,9 @@ public class SignUpController {
             return false;
         }
         return true;
+    }
+
+    @FXML
+    public void btnLoginOnAction(MouseEvent mouseEvent) {
     }
 }

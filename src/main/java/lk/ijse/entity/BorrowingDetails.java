@@ -1,7 +1,6 @@
 package lk.ijse.entity;
 
 import lk.ijse.embedded.BorrowingDetailPK;
-import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

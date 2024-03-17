@@ -14,6 +14,7 @@ public class UserDTO {
     private String password;
     private String role;
 
+
     public User toEntity() {
         User userEnt = new User();
         userEnt.setUserName(this.userName);

@@ -8,12 +8,9 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import lk.ijse.dto.BookDTO;
 import lk.ijse.dto.BranchDTO;
-import lk.ijse.dto.tm.BookTM;
 import lk.ijse.dto.tm.BranchTM;
 import lk.ijse.service.ServiceFactory;
-import lk.ijse.service.custom.BookService;
 import lk.ijse.service.custom.BranchService;
 
 import java.util.Optional;
